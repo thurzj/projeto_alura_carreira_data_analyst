@@ -1,5 +1,10 @@
+# Ignora apenas dados sensíveis
 .env
-cleaned_csv/
-data/
+
+# Ignora lixo de Python
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
+
+# Ignora apenas dados privados
+data/private/
